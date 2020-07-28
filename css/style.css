@@ -1,0 +1,99 @@
+
+     
+ 
+ #header-nav{
+    background-color:#58232f;
+    border-radius: 0;
+    border:0;
+background: url(../images/Phoenix_space.jpg);
+
+}
+ #logo-img{
+     background: url("../images/strartrek.png") no-repeat;
+ width: 150px;
+height: 150px;
+margin: 10px 15px 10px 0;}
+.navbar-brand{
+    padding: 25px;
+}
+
+.navbar-brand h1{
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #557c3e;
+font-size:50px;
+text-transform: capitalize;
+text-shadow: 5px 5px 5px #223fff;
+margin-bottom: 0;
+font-weight: bold;
+line-height: .75}
+.navbar-brand a:hover, .navbar-brand a:focus {
+text-decoration: none;
+}
+#nav-list{
+    margin-top: 10px;
+    
+
+}
+#nav-list a{
+color:#223fff;
+text-align: center;
+}
+#nav-list a :hover{
+    color: #6c83f7;}
+#nav-list a span{
+    font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle{
+     clear:both;
+     margin-top: -30px;
+
+ }
+ /**************Media divices*************/
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+ }
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+ }
+ /* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-brand{
+        padding-top: 10px;
+        height: 90px;
+    }
+
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+.navbar-brand{
+        padding-top:10px;
+        height:90px;
+}
+
+    .navbar-brand h1{
+        padding-top: 10px;
+        font-size: 5vw;	
+    }
+    #navbar.list{
+        text-align: center;
+    }
+}
+ /* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+.navbar-brand h1{
+    padding-top: 2px;
+    font-size: 5vw;
+    margin-top: 0;
+
+    }
+    }
+
+ 
