@@ -9,10 +9,11 @@ background: url(../images/Phoenix_space.jpg);
 
 }
  #logo-img{
-     background: url("../images/strartrek.png") no-repeat;
- width: 150px;
-height: 150px;
-margin: 10px 15px 10px 0;}
+     background: url("../images/aclogo.gif") no-repeat;
+ width: 100px;
+height: 100px;
+margin: 10px 15px 10px 0;
+}
 .navbar-brand{
     padding: 25px;
 }
