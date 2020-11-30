@@ -74,6 +74,12 @@ text-align: center;
 }
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+    #logo-img{
+        background: url("../images/aclogo.gif") no-repeat;
+    width: 100px;
+   height: 100px;
+   margin: 10px 15px 10px 0;
+   }
 .navbar-brand{
         padding-top:10px;
         height:90px;
@@ -89,6 +95,12 @@ text-align: center;
 }
  /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
+    #logo-img{
+        background: url("../images/aclogo.gif") no-repeat;
+    width: 100px;
+   height: 100px;
+   margin: 10px 15px 10px 0;
+   }
 .navbar-brand h1{
     padding-top: 2px;
     font-size: 5vw;
